@@ -10,28 +10,27 @@
 
     <ImageView
         android:id="@+id/image_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/estilo_image_view"
+        android:contentDescription="@string/descricao_imagem"
         app:layout_constraintBottom_toTopOf="@+id/text_view"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dice_6" />
 
     <TextView
         android:id="@+id/text_view"
         style="@style/TextView"
-        android:text="6"
+        android:text=""
         app:layout_constraintBottom_toTopOf="@id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/image_view"
-        />
+        app:layout_constraintTop_toBottomOf="@id/image_view" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Lançar"
+        style="@style/button_style"
+        android:text="@string/button_text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

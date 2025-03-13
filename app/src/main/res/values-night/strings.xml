@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Dados</string>
     <string name="button_text">Lançar</string>
     <string name="descricao_imagem">imagem de um dado</string>
 </resources>
