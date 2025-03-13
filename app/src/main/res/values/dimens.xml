@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="TextoMuitoGrande">100sp</dimen>
+    <dimen name="TextoGrande">70sp</dimen>
+    <dimen name="TextoMedio">40sp</dimen>
+    <dimen name="Texto">20sp</dimen>
+    <dimen name="TextoPequeno">10sp</dimen>
+</resources>
